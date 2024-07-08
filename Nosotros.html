@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T'iksicookies / Nosotros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Link del estilo-->
+    <link rel="stylesheet" href="css/Style.css" />
+    <!--tipografia-->
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Candal&family=Changa+One:ital@0;1&family=Palanquin+Dark:wght@400;500;600;700&family=Suez+One&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!--favecon-->
+         <link rel="icon" type="image/x-icon" href="img/galleta_icono.png" style="height: 100%; width: 100%;">
+         <script src="js/javaScrip.js" async></script>
+</head>
+
+    <body>
+        <!--inicio del Navbar-->
+    <div class="container-fluid  ">
+        <div class="container ">
+            <!-- As a link -->
+            <div class="container d-flex justify-content-center">
+                <div class="linea1">
+                    <img src="img/linea1.png" alt="linea1">
+                </div>
+                <div class="galleta1">
+                    <img src="img/galleta1.png" alt="galleta1">
+                </div>
+                <div class="icono1">
+                    <img src="img/icono1.png" alt="icono1">
+                </div>
+                <nav class="navbar bg-body-tertiary">
+                    <a class="navbar-brand titulo" href="index.html">T'iksicookies</a>
+                </nav>
+                <div class="icono2">
+                    <img src="img/icono2 .png" alt="icono2">
+                </div>
+                <div class="galleta2">
+                    <img src="img/galleta2.png" alt="galleta2">
+                </div>
+                <div class="linea2">
+                    <img src="img/linea2.png" alt="linea2">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- As a heading -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white" style="z-index: 10; height: 110px;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center nav" id="navbarNavAltMarkup">
+                    <div class="navbar-nav opciones">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                        <a class="nav-link" href="Ofertas.html">Ofertas</a>
+                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass"
+                        style="margin-left: 250px; font-size: 30px;cursor: pointer; z-index: 10; " id="icon-search"></i>
+                    
+                        <ul class="submenu">
+                            <!-- Icono de carrito -->
+                            <i class="fa-solid fa-cart-shopping carrito-icono fa-2x" style="margin-top: 50% !important; cursor: pointer;" id="icon-cart" alt="carrito"></i>
+                            <div class="carrito" id="carrito">
+                                <div class="header-carrito">
+                                    <h2>Tu Carrito</h2>
+                                </div>
+                                <div class="carrito-items">
+                                    <!-- Aquí se añadirán los items del carrito -->
+                                </div>
+                                <div class="carrito-total">
+                                    
+                                    <div class="fila">
+                                        <strong style="opacity: 0;">Tu Total</strong>
+                                        <span class="carrito-precio-total">S/ 120.00</span>
+                                    </div>
+                                    <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--fin del navbar-->
+     <!-- inicio del buscador-->
+     <div id="ctn-bars-search" style="top: 135px !important;">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+    <ul id="box-search" >
+        <!--directo a la info de galletas-->
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Zanahoria Zen con Nuez</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Chía Crunchy</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Galletas Almendra Linaza Bliss</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Avenita Crunch</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Galletas Doradas de Cúrcuma</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Avena Crunchy Cookies</a></li>
+        <!--directo a las ofertas de galletas-->
+        <li><a href="detalle_oferta1.html"><i class="fa-solid fa-magnifying-glass"></i>Combo Dúo Nutritivo</a></li>
+        <li><a href="detalle_oferta2.html"><i class="fa-solid fa-magnifying-glass"></i>Combo Energético Premium</a></li>
+        <li><a href="detalle_oferta3.html"><i class="fa-solid fa-magnifying-glass"></i>Combo Saludable</a></li>
+        <li><a href="detalle_oferta4.html"><i class="fa-solid fa-magnifying-glass"></i>Pack Saludable Todo en Uno</a></li>
+        <li><a href="detalle_oferta5.html"><i class="fa-solid fa-magnifying-glass"></i>Paquete Energético Supremo</a></li>
+    </ul>
+    <div id="cover-ctn-search"></div>
+    <!-- fin del buscador-->
+     <!-- inicio nube 1-->
+     <div class="container-fluid ">
+        <div class="row nube3 justify-content-center">
+            <img src="img/nube-pequeña.png" class="img-fluid " alt="nube-3">
+            <div class="content-overlay">
+            </div>
+        </div>
+    </div>
+    <!-- fin nube 1-->
+
+        <!-- seccion banner inicia-->
+        <div class="container-fluid banner">
+            <div class="container py-5">
+                <div class="row g-4 align-items-center banner-cuadro">
+                    <div class="col-lg-6">
+                        <div class="py-4 banner-letra">
+                            <h1 class="display-3 text-white">Bienvenidos a T'iksicookies</h1>
+                            <p class="fw-normal display-3 text-dark mb-4">Nosotros</p>
+                            <p class="mb-4 text-dark" style="font-size: 25px">Horneamos más que solo galletas. Nos especializamos en crear deliciosas galletas que no solo deleitan el paladar, sino que también ofrecen beneficios para la salud. 
+                                Nuestras recetas están cuidadosamente elaboradas para ayudar a combatir diversas enfermedades, proporcionando una fuente natural de energía. 
+                                Nos enorgullecemos de utilizar ingredientes de alta calidad y de mantener precios accesibles, porque creemos que todos merecen disfrutar de una galleta que es buena para el cuerpo y el alma.</p>
+                            <a href="Productos.html" class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5" style="background-color: beige;">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img src="img/galletas de abeja.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute" style="width: 150px; height: 150px; top: 0; left: 0;">
+                                <h1 style="font-size: 40px;">S/.</h1>
+                                <div class="d-flex flex-column">
+                                    <span class="h2 mb-0" style="font-size: 50px;">22</span>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- secciona banner fin -->
+
+       <!-- Fact Start -->
+       <div class="container-fluid py-5">
+        <div class="container">
+            <div class=" p-5 rounded" style="background-color: #ffa07a;">
+                <div class="row g-4 justify-content-center ">
+                    <div class="col-md-12 col-lg-12 col-xl-6">
+                        <div class="informacion bg-white rounded p-5">
+                            <i class="fa fa-users text-secondary"></i>
+                            <h4>Misión</h4>
+                            <h1>Nuestra misión es hornear galletas que no solo sean deliciosas, sino que también promuevan el bienestar y la salud de nuestros clientes. Nos comprometemos a utilizar ingredientes naturales y saludables, innovando constantemente en nuestras recetas para ofrecer productos que ayuden a combatir distintas enfermedades.
+                                En T'iksicookies, trabajamos con pasión para proporcionar energía y alegría en cada bocado, manteniendo siempre una excelente relación calidad-precio.</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 col-xl-6">
+                        <div class="informacion bg-white rounded p-5">
+                            <i class="fa fa-users text-secondary"></i>
+                            <h4>Visión</h4>
+                            <h1>Nuestra visión es ser la tienda de galletas líder en el mercado, reconocida por nuestra dedicación a la salud y el bienestar de nuestros clientes. 
+                                Aspiramos a expandir nuestro alcance, convirtiéndonos en un referente de innovación y calidad en la industria de alimentos saludables.
+                                 En T'iksicookies, soñamos con un mundo donde cada galleta no solo sea un placer, sino también un aliado para una vida más saludable y feliz.</h1>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact Start -->
+
+        <!--inicio carrusel de testimonios usuarios-->
+    <div class="container-fluid reseña-fondo">
+        <p class="text-center usuario">Nuestros usuarios</p>
+        <div class="container reseña">
+            <div class="row">
+                <div class="col-xl">
+                    <div class="carousel-container">
+                        <div id="carouselExampleIndicator" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="single-box">
+                                                <div class="img-area">
+                                                    <img src="img/alejandroF.jpg" alt="">
+                                                </div>
+                                                <div class="img-text">
+                                                    <h2>Alejandro Torres</h2>
+                                                    <p>"Las galletas de T'iksicookies han mejorado mi rutina diaria al
+                                                        ser
+                                                        deliciosas y saludables. Como amante de las galletas, encontrar
+                                                        una
+                                                        opción que no agrave mis problemas digestivos ha sido un
+                                                        verdadero
+                                                        hallazgo. Son una solución perfecta para disfrutar sin
+                                                        preocupaciones."</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-box">
+                                                <div class="img-area">
+                                                    <img src="img/maria.jpg" alt="">
+                                                </div>
+                                                <div class="img-text">
+                                                    <h2>María Fernanda López</h2>
+                                                    <p>"Las galletas T'iksicookies son absolutamente deliciosas! Como
+                                                        alguien que siempre esta buscando opciones saludables,
+                                                        estas galletas son lo mejor ya que no solo satisfacen mi antojo
+                                                        dulce, sino que también me hacen sentir bien por dentro"</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item " data-bs-interval="4000">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="single-box">
+                                                <div class="img-area">
+                                                    <img src="img/lucas.jpg" alt="">
+                                                </div>
+                                                <div class="img-text">
+                                                    <h2>Lucas Fernández</h2>
+                                                    <p>“¡Las galletas de T'iksicookies son fantásticas! No solo son
+                                                        deliciosas, sino que también están diseñadas para ayudar con
+                                                        distintas enfermedades. Tienen una gran variedad para elegir y
+                                                        todas
+                                                        están hechas con ingredientes de alta calidad. ¡Altamente
+                                                        recomendadas!”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-box">
+                                                <div class="img-area">
+                                                    <img src="img/marta.jpg" alt="">
+                                                </div>
+                                                <div class="img-text">
+                                                    <h2>Marta González</h2>
+                                                    <p>"Galletas de avena y miel: una deliciosa mezcla de ingredientes
+                                                        naturales
+                                                        que ofrece un sabor reconfortante y nutritivo, ideal para
+                                                        satisfacer
+                                                        tus
+                                                        antojos sin remordimientos."
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--fin testimonios usuarios-->
+
+       <!-- inicio nube 2-->
+    <div class="container-fluid ">
+        <div class="row nube2 justify-content-center">
+            <img src="img/nube2.png" class="img-fluid " alt="nube-2">
+            <div class="content-overlay2">
+                <p class="text-center">Nuestras redes sociales </p>
+                <div class="container-xl ">
+                    <div class="row justify-content-center text-center icono3 ">
+                        <div class="col-1 ">
+                            <i class="fa-brands fa-instagram fa-4x"></i>
+                        </div>
+                        <div class="col-1 ">
+                            <i class="fa-brands fa-square-facebook fa-4x"></i>
+                        </div>
+                        <div class="col-1 ">
+                            <i class="fa-brands fa-youtube  fa-4x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin nube 2-->
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    </body>
+    <script src="js/javaScrip.js"></script>
+
+</html>

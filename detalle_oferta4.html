@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>T'iksicookies / Combo Saludable Todo en Uno</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!--Link del estilo-->
+        <link rel="stylesheet" href="css/Style.css"/>
+        <!--tipografia-->
+        <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Candal&family=Changa+One:ital@0;1&family=Palanquin+Dark:wght@400;500;600;700&family=Suez+One&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <!--boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        <!--iconos-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+             <!--favecon-->
+        <link rel="icon" type="image/x-icon" href="img/galleta_icono.png" style="height: 100%; width: 100%;">
+        <script src="js/javaScrip.js" async></script>
+    </head>
+<body>
+    <!--inicio del Navbar-->
+    <div class="container-fluid  ">
+        <div class="container ">
+            <!-- As a link -->
+            <div class="container d-flex justify-content-center">
+                <div class="linea1">
+                    <img src="img/linea1.png" alt="linea1">
+                </div>
+                <div class="galleta1">
+                    <img src="img/galleta1.png" alt="galleta1">
+                </div>
+                <div class="icono1">
+                    <img src="img/icono1.png" alt="icono1">
+                </div>
+                <nav class="navbar bg-body-tertiary">
+                    <a class="navbar-brand titulo" href="index.html">T'iksicookies</a>
+                </nav>
+                <div class="icono2">
+                    <img src="img/icono2 .png" alt="icono2">
+                </div>
+                <div class="galleta2">
+                    <img src="img/galleta2.png" alt="galleta2">
+                </div>
+                <div class="linea2">
+                    <img src="img/linea2.png" alt="linea2">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- As a heading -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white" style="z-index: 10; height: 110px;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center nav" id="navbarNavAltMarkup">
+                    <div class="navbar-nav opciones">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                        <a class="nav-link" href="Ofertas.html">Ofertas</a>
+                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass"
+                        style="margin-left: 250px; font-size: 30px;cursor: pointer; z-index: 10; " id="icon-search"></i>
+                    
+                        <ul class="submenu">
+                            <!-- Icono de carrito -->
+                            <i class="fa-solid fa-cart-shopping carrito-icono fa-2x" style="margin-top: 50% !important; cursor: pointer;" id="icon-cart" alt="carrito"></i>
+                            <div class="carrito" id="carrito">
+                                <div class="header-carrito">
+                                    <h2>Tu Carrito</h2>
+                                </div>
+                                <div class="carrito-items">
+                                    <!-- Aquí se añadirán los items del carrito -->
+                                </div>
+                                <div class="carrito-total">
+                                    
+                                    <div class="fila">
+                                        <strong style="opacity: 0;">Tu Total</strong>
+                                        <span class="carrito-precio-total">S/ 120.00</span>
+                                    </div>
+                                    <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--fin del navbar-->
+     <!-- inicio del buscador-->
+     <div id="ctn-bars-search" style="top: 135px !important;">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+    <ul id="box-search" >
+        <!--directo a la info de galletas-->
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Zanahoria Zen con Nuez</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Chía Crunchy</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Galletas Almendra Linaza Bliss</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Avenita Crunch</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Galletas Doradas de Cúrcuma</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Avena Crunchy Cookies</a></li>
+        <!--directo a las ofertas de galletas-->
+        <li><a href="detalle_oferta1.html"><i class="fa-solid fa-magnifying-glass"></i>Combo Dúo Nutritivo</a></li>
+        <li><a href="detalle_oferta2.html"><i class="fa-solid fa-magnifying-glass"></i>Combo Energético Premium</a></li>
+        <li><a href="detalle_oferta3.html"><i class="fa-solid fa-magnifying-glass"></i>Combo Saludable</a></li>
+        <li><a href="detalle_oferta4.html"><i class="fa-solid fa-magnifying-glass"></i>Pack Saludable Todo en Uno</a></li>
+        <li><a href="detalle_oferta5.html"><i class="fa-solid fa-magnifying-glass"></i>Paquete Energético Supremo</a></li>
+    </ul>
+    <div id="cover-ctn-search"></div>
+    <!-- fin del buscador-->
+    <!-- inicio nube 1-->
+<div class="container-fluid ">
+    <div class="row nube3 justify-content-center">
+        <img src="img/nube-pequeña.png" class="img-fluid " alt="nube-3">
+        <div class="content-overlay">
+        </div>
+    </div>
+</div>
+<!-- fin nube 1-->
+    <div class="container mt-5" style="margin-top: 10% !important;">
+        <div class="row">
+            <div class="col-md-6">
+                <img id="mainImage" src="img/chiacombo2.PNG" alt="Galleta Principal" class="img-fluid mb-3">
+                <div class="product-thumbnails d-flex justify-content-center">
+                    <img src="img/chiacombo2.PNG" alt="Thumb 1" onclick="changeImage('img/chiacombo2.PNG')">
+                    <img src="img/curcumacombo2..PNG" alt="Thumb 2" onclick="changeImage('img/curcumacombo2..PNG')">
+                    <img src="img/comboo2.PNG" alt="Thumb 3" onclick="changeImage('img/comboo2.PNG')">
+                    <img src="img/zanahoria 3.PNG" alt="Thumb 4" onclick="changeImage('img/zanahoria 3.PNG')">
+                </div>
+            </div>
+            <div class="col-md-6 item">
+                <h1 class="product-title titulo-item" style="font-size: 35px !important;">Combo Saludable Todo en Uno </h1>
+                <p class="product-description">Nuestro Combo Saludable Todo en Uno ofrece una selección variada de galletas diseñadas para cubrir todas tus necesidades nutricionales y satisfacer tus gustos más exigentes. Cada tipo de galleta está cuidadosamente elaborado con ingredientes naturales que ofrecen beneficios específicos para la salud.</p>
+                <p class="product-price precio-item">S/68.90</p>
+                
+                <div class="mb-3">
+                    <label for="cantidad1" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" id="cantidad1" value="1">
+                </div>
+                <a href="#" class="btn btn-products boton-item" style="margin-top: 5px;">Añadir al carrito</a>
+                <div class="accordion mt-4" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Información del producto
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>
+                                        <strong>Galletas Chía Crunchy:</strong> 10 unidades<br>
+                                        Estas galletas son una fuente excelente de ácidos grasos omega-3, que son esenciales para la salud cardiovascular. La chía y la linaza también proporcionan fibra dietética que ayuda a la digestión y la regulación del colesterol.
+                                    </li>
+                                    <li>
+                                        <strong>Galletas Sol de Miel y Cúrcuma:</strong> 10 unidades<br>
+                                        Infundidas con cúrcuma, conocida por sus propiedades antiinflamatorias y antioxidantes, estas galletas son una deliciosa opción para apoyar la salud general. La miel de palma añade un dulzor natural mientras que los copos de avena proporcionan fibra y nutrientes esenciales.
+                                    </li>
+                                    <li>
+                                        <strong>Galletas Almendra y Linaza Bliss:</strong> 10 unidades<br>
+                                        Las almendras y la linaza son ricas en grasas saludables y proteínas, proporcionando energía sostenida y favoreciendo la salud intestinal gracias a su contenido en fibra. Ideales como snack nutritivo entre comidas.
+                                    </li>
+                                    <li>
+                                        <strong>Galletas Zanahoria Zen con Nuez:</strong> 10 unidades<br>
+                                        Estas galletas están cargadas con betacarotenos provenientes de la zanahoria, beneficiando la salud ocular y la función inmunológica. La nuez moscada añade un sabor único y propiedades antioxidantes, haciendo de estas galletas una opción saludable y deliciosa.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- inicio nube 2-->
+<div class="container-fluid ">
+    <div class="row nube2 justify-content-center" style="margin-top: 15%;">
+        <img src="img/nube2.png" class="img-fluid " alt="nube-2">
+        <div class="content-overlay2">
+            <p class="text-center redes">Nuestras redes sociales </p>
+            <div class="container-xl ">
+                <div class="row justify-content-center text-center icono3 ">
+                    <div class="col-1 ">
+                        <i class="fa-brands fa-instagram fa-4x"></i>
+                    </div>
+                    <div class="col-1 ">
+                        <i class="fa-brands fa-square-facebook fa-4x"></i>
+                    </div>
+                    <div class="col-1 ">
+                        <i class="fa-brands fa-youtube  fa-4x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fin nube 2-->
+    <script>
+        function changeImage(image) {
+            document.getElementById('mainImage').src = image;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/javaScrip.js"></script>
+</body>
+</html>
